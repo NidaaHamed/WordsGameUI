@@ -6,6 +6,6 @@ submitWordBtn.addEventListener("click",async ()=>{
 async function fetchGridInfo(wordList){
     const commaSeparatedWords = wordList.join(",");
     let response = await fetch(`http://localhost:8080/wordgrid?gridSize=10&wordsList=${commaSeparatedWords}`);
-    let result = await response.json();
+    let result = await response.text();
     return result;
 }
