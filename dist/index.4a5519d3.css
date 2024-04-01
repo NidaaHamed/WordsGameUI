@@ -1,2 +1,8 @@
-
+.container {
+  justify-content: center;
+  width: 90vw;
+  height: 90vh;
+  margin: auto;
+  display: flex;
+}
 /*# sourceMappingURL=index.4a5519d3.css.map */

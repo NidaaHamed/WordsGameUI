@@ -1,2 +1,13 @@
 node_modules
-.parcel-cache
+# Ignore .babelrc file
+.babelrc
+
+# Ignore Parcel cache directory
+.parcel-cache/
+
+# Ignore built files
+dist/*.js
+dist/*.js.map
+dist/*.*.js
+dist/*.*.js.map
+

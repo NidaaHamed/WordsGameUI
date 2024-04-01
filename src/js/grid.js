@@ -21,6 +21,5 @@ export class Grid {
         
         document.getElementsByClassName("grid-area")[0].appendChild(tbl);
         
-        tbl.setAttribute("border", "2");
     }
 }

@@ -1,1 +1,1 @@
-{"mappings":"","sources":[],"sourcesContent":[],"names":[],"version":3,"file":"index.4a5519d3.css.map","sourceRoot":"/__parcel_source_root/"}
+{"mappings":"AAAA","sources":["src/app.css"],"sourcesContent":[".container{\n    width: 90vw;\n    height: 90vh;\n    margin: auto;\n    display: flex;\n    justify-content: center;\n}\n.grid-area{\n\n}"],"names":[],"version":3,"file":"index.4a5519d3.css.map","sourceRoot":"/__parcel_source_root/"}
