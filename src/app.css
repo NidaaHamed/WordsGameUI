@@ -1,3 +1,7 @@
+body{
+    background-color: black;
+    color: burlywood;
+}
 .container{
     width: 90vw;
     height: 90vh;
@@ -6,5 +10,13 @@
     justify-content: center;
 }
 .grid-area{
+    margin:20px;
+}
+.grid-area td{
+    width:20px;
+    height:20px;
 
+}
+.submit-word{
+    background-color: burlywood;
 }

@@ -18,8 +18,11 @@ export class Grid {
         }
         
         tbl.appendChild(tblBody);
-        
-        document.getElementsByClassName("grid-area")[0].appendChild(tbl);
+        var gridArea = document.getElementsByClassName("grid-area")[0];
+        if(gridArea.lastChild){
+            gridArea.removeChild(gridArea.lastChild);
+        }
+        gridArea.appendChild(tbl);
         
     }
 }
